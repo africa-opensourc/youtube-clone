@@ -1,0 +1,33 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "1. Fork the repository \r 2. Copy your forked clone url and clone:  `git clone [forked-url]`\r 3. Setup your upstream url by doing the following: `git remote add upstream git@github.com:africa-opensource/youtube-clone.git`\r 4. Create a new branch of the most recent master by doing the following:\r ```\r git pull upstream master\r git checkout -b [branch-name]\r ```\r 5. After implementing your changes, push it to your forked repo: `git push origin [branch-name]`\r 6. Follow github's instruction to make a PR\r 7. Copy the PR link and comment it in the trello comment section of that card.",
+  "main": "index.js",
+  "scripts": {
+   "webpack" : "npx webpack",
+   "webpack-watch": "npx webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamcerebrocerberus/youtube-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamcerebrocerberus/youtube-clone/issues"
+  },
+  "homepage": "https://github.com/iamcerebrocerberus/youtube-clone#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.10",
+    "css-loader": "^6.7.1",
+    "filemanager-webpack-plugin": "^7.0.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "postcss": "^8.4.16",
+    "postcss-loader": "^7.0.1",
+    "sass": "^1.54.9",
+    "sass-loader": "^13.0.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
